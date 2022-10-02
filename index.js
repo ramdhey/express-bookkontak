@@ -7,7 +7,7 @@ app.get("/",(req,res)=>{
     res.send("GALAT 404")
 })
 
-app.get("datanya",(req,res) => {
+app.get("/datanya",(req,res) => {
     res.send(importData)
 
 })
